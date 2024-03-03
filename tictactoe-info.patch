@@ -1,0 +1,23 @@
+diff --git a/activity/activity.info b/activity/activity.info
+index 287bce9..3db81e8 100644
+--- a/activity/activity.info
++++ b/activity/activity.info
+@@ -1,8 +1,16 @@
+ [Activity]
+-name = Tic-Tac-Toe
++name = TicTacToe
+ activity_version = 3
+ bundle_id = org.sugarlabs.TicTacToe
+ exec = sugar-activity3 activity.TicTacToe
+ icon = activity-tictactoe
+ license = GPLv3+
+ repository = https://github.com/devmrfitz/tictactoe
++release_date = 2022-08-15
++metadata_license = CC0-1.0
++summary = A TicTacToe game application.
++description = This is a TicTacToe (OX) game where two players can play.
++url = https://github.com/sugarlabs/tictactoe.git
++tags = Education
++update_contact = tch@sugarlabs.org
++developer_name = Sugar Labs Community
+\ No newline at end of file
