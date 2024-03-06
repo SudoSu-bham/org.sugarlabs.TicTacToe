@@ -9,7 +9,7 @@ To know more refer https://github.com/sugarlabs/tictactoe
 To build this run the following command in terminal
 
 ```bash
-https://github.com/SudoSu-bham/org.sugarlabs.TicTacToe.git
+git clone https://github.com/SudoSu-bham/org.sugarlabs.TicTacToe.git
 cd org.sugarlabs.TicTacToe
 flatpak -y --user install org.gnome.{Platform,Sdk}//44
 flatpak-builder --user --force-clean --install build org.sugarlabs.TicTacToe.json
