@@ -8,6 +8,11 @@ To know more refer https://github.com/sugarlabs/tictactoe
 
 To build this run the following command in terminal
 
+Install the latest version of BaseApp
+```
+flatpak -y --user install org.sugarlabs.BaseApp
+```
+
 ```bash
 git clone https://github.com/SudoSu-bham/org.sugarlabs.TicTacToe.git
 cd org.sugarlabs.TicTacToe
