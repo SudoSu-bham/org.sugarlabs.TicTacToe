@@ -8,15 +8,12 @@ To know more refer https://github.com/sugarlabs/tictactoe
 
 To build this run the following command in terminal
 
-Install the latest version of BaseApp
-```
-flatpak -y --user install org.sugarlabs.BaseApp
-```
-
 ```bash
 git clone https://github.com/SudoSu-bham/org.sugarlabs.TicTacToe.git
 cd org.sugarlabs.TicTacToe
-flatpak -y --user install org.gnome.{Platform,Sdk}//44
+flatpak --user remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+flatpak -y --user install flathub-beta org.gnome.{Platform,Sdk}//46beta
+flatpak -y --user install org.sugarlabs.BaseApp//24.04
 flatpak-builder --user --force-clean --install build org.sugarlabs.TicTacToe.json
 ```
 
